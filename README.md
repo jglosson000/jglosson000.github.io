@@ -1,4 +1,5 @@
 # jglosson000.github.io
-<script>
-    window.href = "/index.html";
-</script>
+---
+redirect: /index.html
+---
+You (may) have been redirected to the main page. If you haven't, click **[this link.](/index.html)**
