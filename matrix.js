@@ -3,7 +3,7 @@ var ctx = c.getContext("2d");
 
 //making the canvas full screen
 // c.height = window.innerHeight;
-c.height = window.innerHeight - c.getBoundingClientRect().top - 50;
+c.height = window.innerHeight - c.getBoundingClientRect().top - 250;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
