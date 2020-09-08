@@ -4,9 +4,9 @@
 */
 
 fetch("/top.html")
-.then(response => {
-    return response.text()
-})
-.then(data => {
-    document.getElementById("top").innerHTML = data;
-});
+    .then(response => {
+        return response.text()
+    })
+    .then(data => {
+        document.getElementById("top").innerHTML = data;
+    });

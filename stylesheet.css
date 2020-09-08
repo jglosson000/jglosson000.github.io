@@ -1,0 +1,23 @@
+/* body {
+    margin: auto;
+    max-width: 960px;
+} */
+
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    z-index: 0;
+    padding-top: 10em;
+}
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*adding a black bg to the body to make things clearer*/
+body {background: black;}
+canvas#c {z-index: -500; bottom: 0;}
+
+img { /* svg on an img tag */
+    -webkit-filter: invert(.75); /* safari 6.0 - 9.0 */
+            filter: invert(.75);
+  }
