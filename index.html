@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <script>
+        /*
+            This has been copied from css-tricks.com
+            https://css-tricks.com/the-simplest-ways-to-handle-html-includes/
+        */
+
+        fetch("/top.html")
+            .then(response => {
+                return response.text()
+            })
+            .then(data => {
+                document.getElementById("top").innerHTML = data;
+            });
+
+    </script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <h1>This is my test Home Page!</h1>
+</body>
+
+</html>
