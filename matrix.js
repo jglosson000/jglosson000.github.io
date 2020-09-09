@@ -18,7 +18,7 @@ var drops = [];
 //x below is the x coordinate
 //1 = y co-ordinate of the drop(same for every drop initially)
 for(var x = 0; x < columns; x++)
-	drops[x] = 1; 
+	drops[x] = Math.floor(Math.random() * 15); 
 
 //drawing the characters
 function draw()
