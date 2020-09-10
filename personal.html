@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="https://en.gravatar.com/userimage/105223147/3940c4a633594d351140933ea4ea573d.jpeg">
+    <style>
+        table#personal {
+            margin-left: auto;
+            margin-right: auto;
+            border-left: 2px solid gray;
+            border-right: 2px solid gray;
+            border-collapse: collapse;
+        }
+        table#personal td {
+            text-align: left;
+            border-left: 2px solid gray;
+        }
+        table#personal td:first-child {
+            border-left: none;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="loadtop.js"></script>
+    <div id="top"></div>
+
+    <h1>This is my Home Page!</h1>
+    <p>Please check out my portfolio by clicking on the scroll at the top of the page.</p>
+
+    <table id="personal">
+        <tr>
+            <th>Tae-kwon-do</th>
+            <th>Cubing</th>
+            <th>Reading</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Black Belt</li>
+                    <li>Doing it for 5 years</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>5 cubes</li>
+                    <li>Doing it for 2 years</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Enjoy fantasy genre</li>
+                    <li>Favorites include:</li>
+                    <ul>
+                        <li>Lord of the Rings</li>
+                        <li>Redwall series</li>
+                        <li>Queen's Thief series</li>
+                    </ul>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <canvas id="c"></canvas>
+    <script src="matrix.js"></script>
+    <div id="bottom"></div>
+
+</body>
+
+</html>
