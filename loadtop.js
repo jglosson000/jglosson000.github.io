@@ -18,4 +18,3 @@ fetch("/bottom.html")
     .then(data => {
         document.getElementById("bottom").innerHTML = data;
     });
-    
